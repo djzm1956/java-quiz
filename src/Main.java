@@ -1,18 +1,19 @@
 import java.util.Scanner;
-import java.awt.event.*;
 
 public class Main {
     public static void main(String[] args) {
         Scanner k = new Scanner(System.in);
         // User u = new User();
-
+        
         AddUserPanel newUser = new AddUserPanel();
 
+        /*
         System.out.println("Enter the number of the quiz that you want to take.");
         System.out.println("1. Geography\n" + "2. Math\n" +
                 "3. Pop Culture\n" +
                 "4. Brain Teaser\n");
         int quizNum = k.nextInt();
+
 
         switch(quizNum){
             case 1:
@@ -30,14 +31,8 @@ public class Main {
             default:
                 System.out.println("Please enter a number 1-4 to select a quiz.");
                 break;
+
         }
-
-
+         */
     }
-
-    /*
-    private class buttonHandler implements ActionListener{
-
-    }
-    */
 }

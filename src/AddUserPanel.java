@@ -70,17 +70,14 @@ public class AddUserPanel extends JFrame {
             u.setType(User.userType.QUIZCREATOR);
         }
 
+        User.userArray.add(u);
+        System.out.println(u.username);
+        JOptionPane.showMessageDialog(null, String.format("User %s has been created successfully.", u.getUsername()));
     }
     private class addButtonHandler implements ActionListener {
 
-        public void actionPerformer(ActionEvent addEvent){
+        public void actionPerformed(ActionEvent addEvent){
             addUser();
         }
-
-        @Override
-        public void actionPerformed(ActionEvent e) {
-
-        }
     }
-
 }

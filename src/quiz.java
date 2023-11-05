@@ -5,5 +5,5 @@ public class quiz {
     int numWrong;
     int numCorrect;
     // use enum for difficulty levels
-    
+
 }
